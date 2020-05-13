@@ -1,0 +1,8 @@
+The weights in this directory have been computed using 33235 exemplars
+computed originally for the 2008 EBAI project, using polyfits (pf) and
+2-gaussian models (2g). Both networks have been trained for 4M iterations
+and tested against the first 10k independently drawn exemplars from the
+sample_111k test set. The corresponding bounds file is also included.
+In principle, these files are all that's needed to run a forward model
+for either polyfitted or 2g'd input data. See phoebe implementation for
+further details.
